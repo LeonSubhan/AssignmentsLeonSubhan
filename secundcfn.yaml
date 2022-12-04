@@ -1,0 +1,6 @@
+Description: Creating the second S3 bucket with minimal inputs
+Resources:
+  S3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+     BucketName: leon3
