@@ -1,0 +1,12 @@
+Parameters:
+  NbucketName:
+    Description: Update the name of S3 Bucket
+    Type: String
+
+
+
+Resources:
+  S3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Ref NbucketName
